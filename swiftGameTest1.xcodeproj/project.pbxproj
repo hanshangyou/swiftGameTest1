@@ -405,6 +405,7 @@
 				2E0250EB194A143100974A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E0250EC194A143100974A8D /* Build configuration list for PBXNativeTarget "swiftGameTest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				2E0250EE194A143100974A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,14 +9,28 @@
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    var playerNode :SKSpriteNode
+    
+    init(size: CGSize) {
+        super.init(size:size)
+        this.playerNode = SKSpriteNode(size:size)
+        
+    
+    
+    }
+    
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+//        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
+//        myLabel.text = "Hello, World!";
+//        myLabel.fontSize = 65;
+//        myLabel.position = CGPoint(x:CGRectGetMidX	(self.frame), y:CGRectGetMidY(self.frame));
+//        println(self.size)
+//        myLabel.position = CGPoint(x: 512, y: 384);
+        self.backgroundColor = SKColor()
         
-        self.addChild(myLabel)
+        self.addChild(player)
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
